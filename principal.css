@@ -1,0 +1,107 @@
+body{
+ background-image: url(recursos/fad5aa2e7f750e518b08f90280ff070f\ \(1\).jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+  
+  }
+.margen{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1200px;
+    height: 1200px;
+    background-color: hsla(33, 78%, 91%, 0.404);
+    margin: 2.5cm auto;
+}
+
+.peli1{
+    width: 250px;
+    height: 350px;
+    margin: 1.5cm;
+}
+.peli2{
+    width: 250px;
+    height: 350px;
+    margin: 1.5cm;
+}
+.peli3{
+    width: 250px;
+    height: 350px;
+    margin: 1.5cm;
+}
+.peli4{
+    width: 250px;
+    height: 350px;
+    margin: 1.5cm;
+
+}
+.peli5{
+    width: 250px;
+    height: 350px;
+    margin: 1.5cm;
+
+}
+.peli6{
+    width: 250px;
+    height: 350px;
+    margin: 1.5cm;
+
+}
+.des1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -600px;
+    margin-left: -30px;
+
+}
+.des2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -600px;
+    margin-left: -30px;
+    
+}
+.des3{
+
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -600px;
+    margin-left: -30px;
+}
+.des4{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -150px;
+    margin-left: -30px;
+}
+.des5{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -150px;
+    margin-left: -30px;
+    
+}
+.des6{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -150px;
+    margin-left: -30px;
+}
+
+
+
