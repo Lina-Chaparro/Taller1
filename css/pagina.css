@@ -1,0 +1,136 @@
+.peli2{
+    width: 290px;
+    height: 390px;
+    margin-left: 35px;
+    margin-top: -80px;
+    
+}
+h1{
+    color:rgb(0, 0, 0);
+    font-size: 60px;
+    margin-left: 365px;
+}
+
+h2{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 365px;
+    margin-top: -340px;
+    
+}
+h3{
+    margin-left: 365px;
+    font-size: 47px;
+    margin-top: -10px;
+}
+h4{
+    margin-left: 365px;
+    margin-top: -30px;
+    font-size: 30px;
+
+}
+h5{
+    width: 750px;
+    word-wrap: break-word;
+    text-align: justify;
+    margin-left: 365px;
+    margin-top: -30px;
+    font-size: 27px;
+}
+h6{
+    margin-left: 365px;
+    font-size: 30px;
+    margin-top: -23px;
+}
+h7{
+    display: block;
+    margin-left: 90px;
+    margin-top: -185px;
+    font-size: 20px;
+    
+}
+
+h8{
+    display: block;
+    margin-left: 70px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.estrellas{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    font-size: 60px;
+    cursor: pointer;
+    margin-left: -1000px;
+    margin-top: -10px;
+}
+.estrellas input{
+    display: none;
+}
+.estrellas label{
+    color: gray;
+    transition: color 0.3s ;
+}
+.estrellas label:hover,
+.estrellas label:hover ~label{
+    color: gold;
+}
+.estrellas input:checked ~ label{
+    color: gold;
+}
+h9{
+    display: flex;
+    margin-left: 35px;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.actor1{
+    margin-left: 180px;
+    margin-top: 20px;
+    width:  200px;
+    height: 200px;
+}
+.actor2{
+    width:  200px;
+    height: 200px;
+    margin-left: 150px;
+}
+.actor3{
+    width:  200px;
+    height: 200px;
+    margin-left:200px;
+
+}
+h10{
+    margin-left: 200px ;
+    font-size: 25px;
+}
+h11{
+    margin-left: 250px;
+    font-size: 20px;
+}
+h12{
+    display: flex;
+    margin-left: 550px ;
+    font-size: 25px;
+    margin-top: -50px;
+}
+h13{
+    display: flex;
+    margin-left: 600px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+h14{
+    display: flex;
+    margin-left: 950px ;
+    font-size: 25px;
+    margin-top: -70px;
+}
+h15{
+    display: flex;
+    margin-left: 1010px;
+    font-size: 20px;
+    margin-top: -20px;
+}
