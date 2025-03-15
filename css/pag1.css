@@ -1,0 +1,57 @@
+.distribucion{
+    width: 60vw;
+    height: 80vh;
+    margin: auto;
+    margin-bottom: 10vh;
+    border: 2px solid rgb(107, 27, 47);
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: /*". . . ." estructura para la distribucion con puntitos */
+    "lalalandimage sinopsis sinopsis review" 
+    "lalalandimage sinopsis sinopsis review" 
+    "lalalandimage . . review" 
+    "generos actores actores trailer" ;
+    /*row-gap:;
+    column-gap:;*/
+    gap:1px;
+}
+.distribucion.d
+
+
+.distribucion div{
+    grid-area: lalalandimage;
+    background-color: rgb(123, 169, 238);
+    height: 100%;
+    width: 100%;
+}
+.distribucion sinopsis {
+    grid-area: sinopsis;
+    background-color: rgba(184, 240, 207, 0.788);
+    height: 100%;
+    width: 100%;
+}
+.distribucion review{
+    grid-area: review;
+    background-color: rgb(226, 174, 203);
+    height: 100%;
+    width: 100%;
+}
+.distribucion generos{
+    grid-area: generos;
+    background-color: rgb(184, 174, 147);
+    height: 100%;
+    width: 100%;
+}
+.distribucion actores{
+    grid-area: actores;
+    background-color: rgb(125, 193, 197);
+    height: 100%;
+    width: 100%;
+}
+.distribucion trailer{
+    grid-area: trailer;
+    background-color: rgb(125, 193, 197);
+    height: 100%;
+    width: 100%;
+}
