@@ -19,13 +19,13 @@
 .distribucion.d
 
 
-.distribucion div{
+.distribucion{
     grid-area: lalalandimage;
     background-color: rgb(123, 169, 238);
     height: 100%;
     width: 100%;
 }
-.distribucion sinopsis {
+.sinopsis {
     grid-area: sinopsis;
     background-color: rgba(184, 240, 207, 0.788);
     height: 100%;
@@ -49,7 +49,7 @@
     height: 100%;
     width: 100%;
 }
-.distribucion trailer{
+.trailer{
     grid-area: trailer;
     background-color: rgb(125, 193, 197);
     height: 100%;

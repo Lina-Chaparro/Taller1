@@ -1,167 +1,198 @@
-*{
+* {
     background-color: black;
-    
-}
-.header{
-    width:100%;
-    height: 18vw;
-    mask-image: linear-gradient(black 10%,transparent);
-    background-size: cover;
-    background-image: url(../recursos/headerflow.jpg);    
+    margin: 0;
+
 }
 
-.peli2{
+.header {
+    width: 100%;
+    height: 20vw;
+    mask-image: linear-gradient(black 10%, transparent);
+    background-size: cover;
+    background-image: url(../recursos/headerflow.jpg);
+}
+
+
+.distribucion {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+        "peli2 texto texto texto"
+        "peli2 texto texto texto"
+        "calificacion genero . ."
+        "actores actores actores actores"
+        "resena resena resena resena";
+    gap: 10px;
+
+}
+
+.parte1 {
+    display: flex;
+    margin-left: 0;
+    margin-top: -200px;
+}
+
+.peli2 {
+    grid-area: peli2;
     width: 290px;
     height: 390px;
-    margin-left: 35px;
-    margin-top: -80px;
-    
 }
-h1{
-    color:rgb(255, 255, 255);
+
+.texto {
+    grid-area: texto;
+}
+
+.texto h1 {
+    color: rgb(255, 255, 255);
     font-size: 60px;
-    margin-left: 365px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2{
-    color:rgb(255, 255, 255);
+.texto h2 {
+    color: rgb(255, 255, 255);
     font-size: 20px;
-    margin-left: 365px;
-    margin-top: -340px;
-    
 }
 
-h3{
-    color:rgb(255, 255, 255);
-    margin-left: 365px;
-    font-size: 20px;
+.texto h3 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
     font-style: italic;
-    margin-top: -10px;
-}
-h4{
-    color:rgb(255, 255, 255);
-    margin-left: 365px;
-    margin-top: -30px;
-    font-size: 30px;
 
 }
-p{
-    color:rgb(255, 255, 255);
-    width: 750px;
+
+.texto h4 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.texto p {
+    color: rgb(255, 255, 255);
     word-wrap: break-word;
     text-align: justify;
-    margin-left: 365px;
-    margin-top: -30px;
     font-size: 25px;
-    
 }
-h6{
 
-    color:rgb(255, 255, 255);
+.genero {
+    grid-area: genero;
+    color: rgb(255, 255, 255);
     margin-left: 365px;
     font-size: 25px;
     margin-top: -23px;
 }
-h7{
-    color:rgb(255, 255, 255);
-    display: block;
-    margin-left: 90px;
-    margin-top: -185px;
-    font-size: 20px;
-    
+
+.calificacion {
+    grid-area: calificacion;
 }
 
-h8{
-    color:rgb(255, 255, 255);
+.calificacion h7 {
+    color: rgb(207, 241, 255);
     display: block;
-    margin-left: 70px;
+    margin-left: 92px;
+    margin-top: -185px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+
+    h7:hover {
+        color: rgb(145, 205, 255);
+    }
+}
+
+.calificacion h8 {
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: 76px;
     font-size: 25px;
     margin-top: 10px;
 }
-.estrellas{
+
+.estrellas {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    font-size: 60px;
+    font-size: 50px;
     cursor: pointer;
-    margin-left: -1000px;
-    margin-top: -10px;
+    width: 360px;
+    height: 150px;
 }
-.estrellas input{
+
+.estrellas input {
     display: none;
 }
-.estrellas label{
+
+.estrellas label {
     color: gray;
-    transition: color 0.3s ;
+    transition: color 0.3s;
 }
+
 .estrellas label:hover,
-.estrellas label:hover ~label{
+.estrellas label:hover~label {
     color: gold;
 }
-.estrellas input:checked ~ label{
+
+.estrellas input:checked~label {
     color: gold;
 }
-h9{
-    color:rgb(255, 255, 255);
+
+
+.actores {
+    grid-area: actores;
+}
+
+.actores h9 {
+    color: rgb(255, 255, 255);
     display: flex;
     margin-left: 35px;
     font-size: 50px;
     margin-top: 20px;
 }
-.actor1{
-    margin-left: 180px;
-    margin-top: 20px;
-    width:  200px;
-    height: 200px;
-}
-.actor2{
-    width:  200px;
-    height: 200px;
-    margin-left: 150px;
-}
-.actor3{
-    width:  200px;
-    height: 200px;
-    margin-left:200px;
 
-}
-h10{
-    color:rgb(255, 255, 255);
-    margin-left: 200px ;
+.actores h10 {
+    color: rgb(255, 255, 255);
+    margin-left: 200px;
     font-size: 25px;
 }
-h11{
-    color:rgb(255, 255, 255);
+
+.actores h11 {
+    color: rgb(255, 255, 255);
     margin-left: 250px;
     font-size: 20px;
 }
-h12{
-    color:rgb(255, 255, 255);
-    display: flex;
-    margin-left: 550px ;
+
+.actores h12 {
+    color: rgb(255, 255, 255);
+    margin-left: 550px;
     font-size: 25px;
     margin-top: -50px;
 }
-h13{
-    color:rgb(255, 255, 255);
-    display: flex;
+
+.actores h13 {
+    color: rgb(255, 255, 255);
+
     margin-left: 600px;
     font-size: 20px;
     margin-top: -20px;
 }
-h14{
-    color:rgb(255, 255, 255);
-    display: flex;
-    margin-left: 950px ;
+
+.actores h14 {
+    color: rgb(255, 255, 255);
+
+    margin-left: 950px;
     font-size: 25px;
     margin-top: -70px;
 }
-h15{
-    color:rgb(255, 255, 255);
-    display: flex;
+
+.actores h15 {
+    color: rgb(255, 255, 255);
     margin-left: 1010px;
     font-size: 20px;
     margin-top: -20px;
 }
 
+
+.resena {
+    grid-area: resena;
+}
