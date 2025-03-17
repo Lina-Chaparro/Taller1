@@ -1,8 +1,14 @@
+
+body{
+    background-image: url(../recursos/fonto\ neutro.jpg); 
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center center;
+}
 *{
-    background-color: black; 
     margin: 0;
 }
-
 .header {
     width: 100%;
     height: 30vw;

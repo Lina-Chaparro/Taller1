@@ -1,12 +1,19 @@
+
+body{
+    background-image: url(../recursos/fondo\ purple\ hearts2.jpg); 
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center center;
+}
 *{
-    background-color: black; 
     margin: 0;
 }
 
 .header {
     width: 100%;
     height: 25vw;
-    mask-image: linear-gradient(rgb(6, 6, 6) 10%, transparent);
+    mask-image: linear-gradient(rgb(6, 6, 6) 15%, transparent);
     background-size: cover;
     background-image: url(../recursos/wl\ \(1\).jpg);
 }
