@@ -5,7 +5,7 @@
 
 .header {
     width: 100%;
-    height: 20vw;
+    height: 25vw;
     mask-image: linear-gradient(rgb(6, 6, 6) 10%, transparent);
     background-size: cover;
     background-image: url(../recursos/headerflow.jpg);
@@ -17,15 +17,14 @@
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas:
-    "peli2 texto texto texto texto"
-    "peli2 texto texto texto texto"
+    "peli3 texto texto texto texto"
+    "peli3 texto texto texto texto"
     "calificacion texto texto texto texto"
     "calificacion texto texto texto texto" 
     "estrellas texto texto texto texto"
-    "actores actores actores actores actores"
-    "resena resena resena resena resena";
+    "actores actores actores actores actores";
     gap: 10px;
     margin-top: -45px;
 }
@@ -36,8 +35,8 @@
     margin-top: -200px;
 }
 
-.peli2 img {
-    grid-area: peli2;
+.peli3 img {
+    grid-area: peli3;
     width: 290px;
     height: 390px;
 }
@@ -49,7 +48,7 @@
 
 .texto h1 {
     color: rgb(255, 255, 255);
-    font-size: 60px;
+    font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: -14px;
 }
@@ -87,7 +86,7 @@
     grid-area: genero;
     color: rgb(255, 255, 255);
     font-size: 33px;
-    margin-top: 15px;
+    margin-top: 20px;
     text-align: left;
 }
 
@@ -97,7 +96,6 @@
     display: flex;
     flex-direction: column; 
     align-items: center;
-    width: 100%;
     gap: 10px;
 }
 
@@ -105,33 +103,43 @@
 .calificacion .trailer {
     text-align: center;
     display: block;
-    margin-top: -20px;
-    font-size: 17px;
+    margin-top: -15px;
+    font-size: 20px;
+    margin-left: -5px;
+    
 }
-    .calificacion .trailer:hover {
-        color: rgb(145, 205, 255);
-      
-    }
+
+.calificacion .trailer a {
+    color: rgb(63, 139, 201);}
+
+.calificacion .trailer a:hover {
+    color: rgb(161, 208, 247);}
+
 
 
 .califica {
   
     color: rgb(255, 255, 255);
     display: block;
-    margin-left: 5px;
-    font-size: 25px;
+    margin-left: -10px;
+    font-size: 27px;
     margin-top: -5px;
     background-color: transparent;
 }
 
 .estrellas {
+    grid-area: estrellas;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center; 
+    justify-content: flex-start; 
     gap: 5px;
-    font-size: 50px;
-    margin-top: -10px;
-  
+    font-size: 55px;
+    cursor: pointer;
+    width: 360px;
+    height: 150px;
+    margin-left: -125px;
+    position: relative;
+    top: -10px;
 }
 
 .estrellas input {
@@ -161,6 +169,8 @@
     flex-wrap: wrap; 
     margin-top: -60px;
     background-color: transparent;
+    position: relative;
+    top: -50px;
 }
 .tituloacto{
     font-size: 25px;
@@ -195,10 +205,14 @@ align-items: center;
     font-size: 20px;
 }
 
-
-.resena {
-    grid-area: resena;
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    margin-top: 20px;
+.footer{
+    position: relative;
+    width: 100%;
+    height: 30vw;
+    mask-image: linear-gradient(transparent, rgb(0, 0, 0));
+    background-size: cover;
+    background-position: center;
+    background-image: url(../recursos/finalflow.jpg);
+    margin-top: -70px;
 }
+

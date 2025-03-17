@@ -106,18 +106,13 @@
     margin-top: -15px;
     font-size: 20px;
     margin-left: -5px;
-    background-color: transparent;
-    a:hover{
-        color: rgb(145, 205, 255);
-    }
 }
 
+.calificacion .trailer a {
+    color: rgb(63, 139, 201);}
 
-    .calificacion .trailer:hover {
-        color: rgb(167, 213, 250);
-      
-    }
-
+.calificacion .trailer a:hover {
+    color: rgb(161, 208, 247);}
 
 .califica {
   
