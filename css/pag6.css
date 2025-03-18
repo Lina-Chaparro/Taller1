@@ -107,23 +107,20 @@ body{
     gap: 10px;
 }
 
-
 .calificacion .trailer {
     text-align: center;
     display: block;
     margin-top: -15px;
     font-size: 20px;
     margin-left: -5px;
-    background-color: transparent;
-    a:hover{
-        color: rgb(255, 199, 136);
-    }
+    
 }
-    .calificacion .trailer:hover {
-        color: rgb(255, 244, 145);
-      
-    }
 
+.calificacion .trailer a {
+    color: rgb(201, 130, 63);}
+
+.calificacion .trailer a:hover {
+    color: rgb(247, 227, 161);}
 
 .califica {
     color: rgb(255, 255, 255);
