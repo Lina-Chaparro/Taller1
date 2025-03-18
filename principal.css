@@ -4,6 +4,14 @@ background-repeat: no-repeat;
 background-attachment:fixed;
 background-size: cover;
 }
+.titulo{
+    width: 800px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; 
+    margin-top: -200px;
+}
 h1{
     color: aliceblue;
     text-align: center;
@@ -16,6 +24,8 @@ h1{
     height: 1200px;
     background-color: hsla(33, 78%, 91%, 0.404);
     margin: 2.5cm auto;
+    margin-top: -100px;
+    
 }
 
 .peli1{
@@ -103,6 +113,3 @@ h1{
     top: -150px;
     margin-left: -30px;
 }
-
-
-
