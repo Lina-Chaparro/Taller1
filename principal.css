@@ -1,9 +1,11 @@
 body{
- background-image: url(recursos/fad5aa2e7f750e518b08f90280ff070f\ \(1\).jpg);
+background-image: url(recursos/fad5aa2e7f750e518b08f90280ff070f\ \(1\).jpg) ;
+background-color: rgba(0, 0, 0, 0.9);
 background-repeat: no-repeat;
 background-attachment:fixed;
 background-size: cover;
 }
+
 .titulo{
     width: 800px;
     height: 600px;
@@ -15,16 +17,17 @@ background-size: cover;
 h1{
     color: aliceblue;
     text-align: center;
-  
   }
-.margen{
+.margen{   
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     width: 1200px;
-    height: 1200px;
+    height: 1150px;
     background-color: hsla(33, 78%, 91%, 0.568);
-    margin: 2.5cm auto;
+    margin: auto;
     margin-top: -100px;
+    
     
 }
 
@@ -62,16 +65,19 @@ h1{
 
 }
 .des1{
-    color: rgb(0, 0, 0);
+    color: rgb(66, 8, 8);
+    text-decoration: underline; 
+    text-decoration-color: rgb(153, 43, 43);
     font-size: 30px;
     text-align: center;
     position: relative;
     top: -600px;
     margin-left: -30px;
-
 }
 .des2{
-    color: rgb(0, 0, 0);
+    color: rgb(53, 6, 40);
+    text-decoration: underline; 
+    text-decoration-color: rgb(134, 23, 134);
     font-size: 30px;
     text-align: center;
     position: relative;
@@ -81,7 +87,9 @@ h1{
 }
 .des3{
 
-    color: rgb(0, 0, 0);
+    color: rgb(5, 19, 44);
+    text-decoration: underline; 
+    text-decoration-color: rgb(40, 108, 153);
     font-size: 30px;
     text-align: center;
     position: relative;
@@ -89,7 +97,9 @@ h1{
     margin-left: -30px;
 }
 .des4{
-    color: rgb(0, 0, 0);
+    color: rgb(63, 15, 25);
+    text-decoration: underline; 
+    text-decoration-color: rgb(185, 61, 78);
     font-size: 30px;
     text-align: center;
     position: relative;
@@ -97,7 +107,9 @@ h1{
     margin-left: -30px;
 }
 .des5{
-    color: rgb(0, 0, 0);
+    color: rgb(32, 9, 73);
+    text-decoration: underline; 
+    text-decoration-color: rgb(60, 35, 151);
     font-size: 30px;
     text-align: center;
     position: relative;
@@ -106,7 +118,9 @@ h1{
     
 }
 .des6{
-    color: rgb(0, 0, 0);
+    color: rgb(58, 9, 9);
+    text-decoration: underline; 
+    text-decoration-color: rgb(136, 43, 43);
     font-size: 30px;
     text-align: center;
     position: relative;
