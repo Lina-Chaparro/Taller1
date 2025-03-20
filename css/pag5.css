@@ -8,6 +8,12 @@ body{
 *{
     margin: 0;
 }
+.fle{
+    position: fixed;         
+    width: 180px;
+    height: 150px;
+    cursor: pointer;             
+}
 .header {
     width: 100%;
     height: 25vw;
@@ -163,7 +169,6 @@ body{
 .estrellas input:checked~label {
     color: gold;
 }
-
 .actores {
     grid-area: actores;
     display: flex;
@@ -174,8 +179,9 @@ body{
     margin-top: -60px;
     background-color: transparent;
     position: relative;
-    top: -50px;
+    top: 10px;
 }
+
 .tituloacto{
     font-size: 25px;
     text-align: center;
@@ -187,27 +193,49 @@ body{
 }
 
  .actor11 {
-display: flex;
-flex-direction: column;
-align-items: center;
 
-}
-.actor11 img{
+    position: relative;
     width: 180px;
-    right: 180px;
-    object-fit: cover;
+    text-align: center;
 
 }
+.contimg{
+    position: relative;
+    width: 180px;
+    height: 270px;
+    overflow: hidden
+}
+.contimg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+.contimg img:nth-child(2) {
+    opacity: 0;
+}
 
- .personaje {
+.contimg:hover img:nth-child(1) {
+    opacity: 0;
+}
+
+.contimg:hover img:nth-child(2) {
+    opacity: 1;
+}
+ .personaje, .nombre{
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .nombre {
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
+
 
 .footer{
     position: relative;
