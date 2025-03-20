@@ -1,0 +1,201 @@
+body{
+    background-image: url(../recursos/proyector.jpg);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: -10px 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    background-color: #f3941d;
+}
+
+h1{
+    text-align: center;
+    background-color: #4b0a0a;
+    color:white;
+    font-size: 60px;
+}
+.distribucion {
+    width: 70%;
+    margin: 12vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "sillaimagen factura"
+    "sillaimagen factura"
+    "asientos factura"
+    "asientos factura";
+    gap: 10px;
+    margin-top: -45px;
+    margin-left: 400px;
+}
+
+.sillaimagen{
+    grid-area: sillaimagen;
+}
+.sillaimagen img{
+    width: 90%;
+    height: 90%;
+}
+.distribucion .asientos{
+    grid-area: asientos;
+}
+
+.distribucion .factura{
+    grid-area: factura;
+}
+
+.sillaimagen {
+    background-color: #ffffff;  
+    border: 5px solid #4b0a0a;
+    padding: 20px;              
+    width: 100%;               
+    margin: auto;               
+    border-radius: 10px;   
+    display: flex;                  
+    justify-content: center;        
+    align-items: center;       
+}
+
+.asientos {
+    background-color: rgba(255, 255, 255, 0.8);  
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    padding: 20px;              
+    width: 100%;               
+    margin: auto;               
+    border-radius: 10px;        
+}
+
+.factura {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.8);  
+    border: 2px solid #000000;
+    padding: 20px;              
+    width: 60%;               
+    margin: auto;               
+    border-radius: 10px;        
+}
+
+.info {
+    display: flex;                     
+    justify-content: space-between;   
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 30px auto;              
+    text-align: center;
+}
+
+.info p {
+    flex: 1;                        
+    color: #333;
+    margin: 0 10px;
+    line-height: 1.5;
+}
+
+.funcion {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.funcion label {
+    color: #333;
+    font-weight: bold;
+}
+
+.funcion select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #999;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.funcion select:hover {
+    border-color: #460b0b;
+}
+
+.fechass {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.fechass label {
+    color: #333;
+    font-weight: bold;
+}
+
+.fechass input[type="date"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #999;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.fechass input[type="date"]:hover {
+    border-color: #460b0b;
+}
+
+
+.horass {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.horass label {
+    color: #333;
+    font-weight: bold;
+}
+
+.horass input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #999;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.horass input[type="time"]:hover {
+    border-color: #460b0b;
+}
+
+.seleccion {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px auto;
+    max-width: 5000px;
+}
+
+
+
+

@@ -7,6 +7,7 @@ background-size: cover;
 }
 
 .titulo{
+
     width: 800px;
     height: 600px;
     display: block;
@@ -14,10 +15,40 @@ background-size: cover;
     max-width: 100%; 
     margin-top: -200px;
 }
+
+.b{
+    position: fixed;         
+    bottom: 10px;            
+    right: 10px;            
+    z-index: 9999;  
+    width: 100px;
+    background-color: #460b0b;   
+    padding: 8px 20px;          
+    border: none;                
+    border-radius: 0px;          
+    cursor: pointer;             
+    font-size: 10px;             
+    transition: background-color 0.3s ease;  
+  }
+  
+  .b:hover {
+    background-color: #8b0000;   
+
+  }
+.b a h2{
+    text-align: center;
+    color: rgb(255, 229, 85);
+    text-decoration: underline;
+    text-decoration-color: #460b0b;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+
 h1{
     color: aliceblue;
     text-align: center;
   }
+
 .margen{   
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -26,9 +57,7 @@ h1{
     height: 1150px;
     background-color: hsla(33, 78%, 91%, 0.568);
     margin: auto;
-    margin-top: -100px;
-    
-    
+    margin-top: -150px;
 }
 
 .peli1{
@@ -127,3 +156,5 @@ h1{
     top: -150px;
     margin-left: -30px;
 }
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Boletería</title>
+    <link rel="stylesheet" href="css/bol.css">
+</head>
+<body>
+    
+    <h1>BOLETERÍA</h1>
+<div class="seleccion">
+    <div class="funcion">
+            <label for="pelicula">Seleccione una película:</label><br>
+            <select id="pelicula" name="pelicula">
+                <option value="spiderman">Spider-Man: Into the Spider-Verse</option>
+                <option value="purple">Purple Hearts</option>
+                <option value="flow">Flow</option>
+                <option value="adosmetros">A dos metros de ti</option>
+                <option value="lalaland">La La Land</option>
+                <option value="eclipse">Total Eclipse</option>
+            </select>
+    </div>
+
+    <div class="fechass">
+        <label for="fecha">Seleccione una fecha:</label><br>
+        <input type="date" id="fecha" name="fecha">
+    </div>
+
+    <div class="horass">
+        <label for="horass">Seleccione la hora de la función:</label><br>
+        <select id="horas" name="horass">
+            <option value="9am">9:00 a.m.</option>
+            <option value="3pm">3:00 p.m.</option>
+            <option value="6pm">6:00 p.m.</option>
+        </select>
+    </div>
+</div>
+<br><br><br>
+    <div class="distribucion">
+    <div class="sillaimagen">
+        <img src="recursos/sillascine.jpg" alt="sillas">
+    </div> <br>
+    
+    <div class="asientos">
+        <p>Por favor visualice y seleccione su asiento a continuación</p>
+        <form action="silla">
+            <p>Número de silla (Ejemplo: A2)</p>
+            <label for="silla">Silla</label>
+            <input type="text" name="silla" required>
+            <button type="reset">Registrar</button>
+        </form>
+    </div>
+
+    
+    <div class="factura">
+        <h2>Datos para su factura electrónica</h2>
+        <h3>Por favor rellenar:</h3>
+        <form action="Datos">
+            <p>Nombre Completo:</p>
+            <input type="text" name="silla" required>
+            <p>Documento de Identificación:</p>
+            <input type="number" name="doc" required>
+            <p>Correo Electrónico:</p>
+            <input type="email" name="email" required>
+            <p>Telefono celular:</p>
+            <input type="number" name="numbercel" required>
+            <p>Cupón Promocional (Opcional):</p>
+            <input type="text" name="Cupon">
+
+            <button type="reset">Registrar</button>
+        </form>
+    </div>   
+</div>
+<div class="info">
+        <p>Lugar <br>Cinema Tunja</p>
+        <p>Funciones <br>Disponibles </p>
+        <p>Excelentes <br>Promociones</p>
+    </div>
+</body>
+</html>
